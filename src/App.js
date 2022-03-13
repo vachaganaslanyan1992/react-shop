@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Button from "./components/Button/Button";
+import Input from "./components/Input/Input";
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,11 @@ function App() {
         >
           Learn React
         </a>
+        <Button/>
+        <Input/>
+        <Input/>
+        <Input/>
+        <Input/>
       </header>
     </div>
   );
